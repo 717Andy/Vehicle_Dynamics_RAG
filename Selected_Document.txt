@@ -1,0 +1,61 @@
+Vehicle dynamics is the study of vehicle motion, e.g., how a vehicle's forward movement changes in response to driver inputs, propulsion system outputs, ambient conditions, air/surface/water conditions, etc.
+Vehicle dynamics is a part of engineering primarily based on classical mechanics .
+It may be applied for motorized vehicles (such as automobiles), bicycles and motorcycles , aircraft , and watercraft .
+
+The aspects of a vehicle's design which affect the dynamics can be grouped into drivetrain and braking, suspension and steering, distribution of mass, aerodynamics and tires.
+
+Automobile layout (i.e. location of engine and driven wheels) Powertrain Braking system
+
+Some attributes relate to the geometry of the suspension , steering and chassis . These include:
+
+Ackermann steering geometry Axle track Camber angle Caster angle Ride height Roll center Scrub radius Steering ratio Toe Wheel alignment Wheelbase
+
+Some attributes or aspects of vehicle dynamics are purely due to mass and its distribution. These include:
+
+Center of mass Moment of inertia Roll moment Sprung mass Unsprung mass Weight distribution
+
+Some attributes or aspects of vehicle dynamics are purely aerodynamic . These include:
+
+Automobile drag coefficient Automotive aerodynamics Center of pressure Downforce Ground effect in cars
+
+Some attributes or aspects of vehicle dynamics can be attributed directly to the tires . These include:
+
+Camber thrust Circle of forces Contact patch Cornering force Ground pressure Pacejka's Magic Formula Pneumatic trail Radial Force Variation Relaxation length Rolling resistance Self aligning torque Skid Slip angle Slip (vehicle dynamics) Spinout Steering ratio Tire load sensitivity
+
+Some attributes or aspects of vehicle dynamics are purely dynamic . These include:
+
+Body flex Body roll Bump steer Bundorf analysis Directional stability Critical speed Noise, vibration, and harshness Pitch Ride quality Roll Speed wobble Understeer, oversteer , lift-off oversteer , and fishtailing Weight transfer and load transfer Yaw
+
+The dynamic behavior of vehicles can be analysed in several different ways. [ 1 ] This can be as straightforward as a simple spring mass system, through a three- degree of freedom (DoF) bicycle model, to a large degree of complexity using a multibody system simulation package such as MSC ADAMS or Modelica . As computers have gotten faster, and software user interfaces have improved, commercial packages such as CarSim have become widely used in industry for rapidly evaluating hundreds of test conditions much faster than real time. Vehicle models are often simulated with advanced controller designs provided as software in the loop (SIL) with controller design software such as Simulink , or with physical hardware in the loop (HIL).
+
+Vehicle motions are largely due to the shear forces generated between the tires and road, and therefore the tire model is an essential part of the math model. In current vehicle simulator models, the tire model is the weakest and most difficult part to simulate. [ 2 ] The tire model must produce realistic shear forces during braking, acceleration, cornering, and combinations, on a range of surface conditions. Many models are in use. Most are semi-empirical, such as the Pacejka Magic Formula model.
+
+Racing car games or simulators are also a form of vehicle dynamics simulation.  In early versions many simplifications were necessary in order to get real-time performance with reasonable graphics. However, improvements in computer speed have combined with interest in realistic physics, leading to driving simulators that are used for vehicle engineering using detailed models such as CarSim.
+
+It is important that the models should agree with real world test results, hence many of the following tests are correlated against results from instrumented test vehicles.
+
+Techniques include:
+
+Linear range constant radius understeer Fishhook Frequency response Lane change Moose test Sinusoidal steering Skidpad Swept path analysis
+
+Automotive suspension design Automobile handling Hunting oscillation Multi-axis shaker table Vehicular metrics 4-poster 7 post shaker
+
+Egbert, Bakker; Nyborg, Lars; Pacejka, Hans B. (1987). "Tyre modelling for use in vehicle dynamics studies" (PDF) . Society of Automotive Engineers . A new way of representing tyre data obtained from measurements in pure cornering and pure braking conditions. Gillespie, Thomas D. (1992). Fundamentals of vehicle dynamics (2nd printing. ed.). Warrendale, PA: Society of Automotive Engineers. ISBN 978-1-56091-199-9 . Mathematically oriented derivation of standard vehicle dynamics equations, and definitions of standard terms. Milliken, William F. (2002). "Chassis Design – Principles and Analysis". Society of Automotive Engineers . Vehicle dynamics as developed by Maurice Olley from the 1930s onwards. First comprehensive analytical synthesis of vehicle dynamics. Milliken, William F. ; Douglas L. (1995). Race car vehicle dynamics (4. printing. ed.). Warrendale, Pa.: Society of Automotive Engineers. ISBN 978-1-56091-526-3 . Latest and greatest, also the standard reference for automotive suspension engineers. Limited, Jörnsen Reimpell; Helmut Stoll; Jürgen W. Betzler (2001). The automotive chassis : engineering principles . Translated from the German by AGET (2nd ed.). Warrendale, Pa.: Society of Automotive Engineers. ISBN 978-0-7680-0657-5 . Archived from the original on 2012-11-02 . Retrieved 2017-09-17 . {{ cite book }} : |last= has generic name ( help ) Vehicle dynamics and chassis design from a race car perspective. Guiggiani, Massimo (2014). The Science of Vehicle Dynamics (1st. ed.). Dordrecht: Springer. ISBN 978-94-017-8532-7 . Handling, Braking, and Ride of Road and Race Cars. Meywerk, Martin (2015). Vehicle Dynamics (1st. ed.). West Sussex: John Wiley & Sons. ISBN 978-1-118-97135-2 . Lecture Notes to the MOOC Vehicle Dynamics of iversity
+
+v t e
+
+Car handling Center of mass Downforce Drifting Electronic Stability Control Fishtailing Inboard brake Oversteer Steering Suspension Tire / Tyre Transaxle Understeer Unsprung mass Vehicle dynamics Weight transfer
+
+Coil Leaf Pneumatic Torsion
+
+Beam axle De Dion tube Multi-link
+
+Twist beam
+
+Double wishbone Jaguar IRS Dubonnet MacPherson strut Chapman strut Multi-link Sliding pillar Swing axle Trailing arm Semi-trailing arm
+
+Jaguar IRS
+
+Chapman strut
+
+Semi-trailing arm
