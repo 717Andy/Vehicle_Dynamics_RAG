@@ -1,8 +1,12 @@
 # Vehicle Dynamics RAG
 
-A small retrieval-augmented generation (RAG) app that answers questions about vehicle dynamics from a single Wikipedia article. It embeds the article, retrieves the closest passages with FAISS, re-ranks them with a cross-encoder, and asks GPT-4o to answer using only that context.
+## About
 
-The corpus is the [Vehicle dynamics](https://en.wikipedia.org/wiki/Vehicle_dynamics) article: mathematical models of motion, drivetrain and braking, suspension and steering, mass distribution, aerodynamics, and tires. A copy already lives in `Selected_Document.txt`.
+Vehicle Dynamics RAG is a command-line question answering app for one source: the Wikipedia article on [vehicle dynamics](https://en.wikipedia.org/wiki/Vehicle_dynamics). You type a question about handling, tires, simulation, or the other topics in that article, and the app answers from the article text stored in `Selected_Document.txt`.
+
+The article is a compact, sectioned reference. It covers the study of how a vehicle’s motion changes with driver inputs, propulsion, and the road or air around it, and it groups the design factors that drive that motion: drivetrain and braking, suspension and steering, mass distribution, aerodynamics, and tires. Those sections are distinct enough that a retriever can pull a relevant passage instead of sending the whole page to the model.
+
+Answers stay tied to that page. A local index finds candidate passages, a cross-encoder re-ranks them, and GPT-4o writes the reply from the passages it receives. When the article does not contain the answer, the prompt tells the model to say so. Chunk size and overlap are constants at the top of `src/RAG_app.py`, so the same question can be asked again after those settings change. The chunk-size experiments later in this file record that comparison.
 
 ## How it works
 
